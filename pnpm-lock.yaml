@@ -28,8 +28,8 @@ importers:
         specifier: ^4.13.2
         version: 4.13.2
       typescript:
-        specifier: ^5.4.3
-        version: 5.4.3
+        specifier: ^5.7.3
+        version: 5.7.3
 
 packages:
 
@@ -1080,8 +1080,8 @@ packages:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
 
-  typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2270,7 +2270,7 @@ snapshots:
 
   to-fast-properties@2.0.0: {}
 
-  typescript@5.4.3: {}
+  typescript@5.7.3: {}
 
   undici-types@5.26.5: {}
 
