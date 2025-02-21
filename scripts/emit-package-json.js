@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { mkdirSync as makeDirectorySync, writeFileSync } from "fs"
-import packageJson_ from "../package.json" assert { type: "json" }
+import packageJson_ from "../package.json" with { type: "json" }
 
 const /** @type {Partial<typeof packageJson_>} */ packageJson = packageJson_
 
