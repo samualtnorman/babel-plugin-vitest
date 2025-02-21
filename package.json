@@ -26,7 +26,7 @@
 		"package": "rm -rf dist && pnpm build && pnpm emit-declarations && scripts/emit-package-json.js && cp license readme.md dist"
 	},
 	"dependencies": {
-		"@babel/types": "^7.24.0"
+		"@babel/types": "^7.0.0"
 	},
 	"devDependencies": {
 		"@samual/rollup-config": "^0.0.0",
