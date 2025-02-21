@@ -8,6 +8,9 @@
 		"useUnknownInCatchVariables": true,
 		"strictNullChecks": true,
 		"module": "ES2020",
-		"target": "ES2021"
+		"target": "ES2021",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"outDir": "../dist"
 	}
 }

@@ -20,11 +20,6 @@
 		"./*.js": "./*.js"
 	},
 	"repository": "github:samualtnorman/babel-plugin-vitest",
-	"scripts": {
-		"build": "./rollup.config.js",
-		"emit-declarations": "tsc --project src --declaration --emitDeclarationOnly --noEmit false --outDir dist",
-		"package": "rm -rf dist && pnpm build && pnpm emit-declarations && scripts/emit-package-json.js && cp license readme.md dist"
-	},
 	"dependencies": {
 		"@babel/types": "^7.0.0"
 	},
@@ -33,7 +28,9 @@
 		"@total-typescript/ts-reset": "^0.5.1",
 		"@types/babel__core": "^7.20.5",
 		"@types/node": "^20.11.30",
+		"@types/semver": "^7.5.8",
 		"rollup": "^4.13.2",
+		"semver": "^7.7.1",
 		"typescript": "^5.7.3"
 	},
 	"engines": {
